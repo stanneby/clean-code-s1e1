@@ -35,7 +35,8 @@ body {
 .create__new-wrap {
   display: flex;
 }
-ul {
+
+.task-list {
   margin:0;
   padding: 0px;
 }
@@ -134,22 +135,16 @@ button.delete img:hover {
   transform: rotatez(0);
 }
 
-/* Completed */
-ul#complete label {
-  text-decoration: line-through
-  color: #888;
-}
-
 /* Edit Task */
 ul li input[type=text] {
   display:none
 }
 
-ul li.edit-mode input[type=text] {
+.task_edit input[type=text] {
   display:inline-block;
   width:224px
 }
 
-ul li.edit-mode label {
+.task_edit label {
   display:none;
 }
