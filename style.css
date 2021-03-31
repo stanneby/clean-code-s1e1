@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: lato, sans-serif;
@@ -86,14 +86,14 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new"] {
+.create__label[for="new"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new {
+.create__input { 
   width: 318px;
 }
-p > button:hover {
+.create__button:hover {
   color: #0fc57c;
 }
 
@@ -136,15 +136,15 @@ p > button:hover {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.task__input {
   display:none
 }
 
-.task_edit input[type=text] {
+.task_edit .task__input {
   display:inline-block;
   width:224px
 }
 
-.task_edit label {
+.task_edit .task__label {
   display:none;
 }
