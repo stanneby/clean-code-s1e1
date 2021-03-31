@@ -123,15 +123,15 @@ p > button:hover {
 .task__input {
   width: 226px
 }
-.task > button.delete:hover {
+.task__delete:hover {
   color: #cf2323;
 }
-button.delete img {
+.task__dlt-icon {
   height: 2em;
   transform: rotatez(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.task__dlt-icon:hover {
   transform: rotatez(0);
 }
 
