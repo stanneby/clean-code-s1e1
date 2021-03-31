@@ -38,7 +38,7 @@
 .task-disp {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .create__new-wrap {
@@ -145,7 +145,7 @@
 }
 
 .task__input {
-  width: 226px
+  width: 226px;
 }
 
 .task__delete:hover {
@@ -165,12 +165,12 @@
 /* Edit Task */
 
 .task__input {
-  display: none
+  display: none;
 }
 
 .task_edit .task__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task_edit .task__label {
