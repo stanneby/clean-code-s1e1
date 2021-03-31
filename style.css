@@ -41,6 +41,14 @@
   flex-grow: 1;
 }
 
+.create {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 .create__new-wrap {
   display: flex;
 }
@@ -113,10 +121,6 @@
 
 .create__input { 
   width: 318px;
-}
-
-.create .create__button:hover {
-  color: #0fc57c;
 }
 
 /* Task list */
