@@ -10,10 +10,10 @@ body {
   display: block;
   text-align: right;
 }
-.info img {
+.info__scheme {
   width: 100%;
 }
-.info .more_inf {
+.more_inf {
   font-family: fantasy, cursive;
 }
 
@@ -27,12 +27,12 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.task-disp {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-.new-wrap {
+.create__new-wrap {
   display: flex;
 }
 ul {
