@@ -19,16 +19,16 @@
       <h3>Todo</h3>
       <ul class="task-list" id="incomplete">
         <li class="task">
-          <input type="checkbox">
-          <label class="task-disp">Pay Bills</label>
-          <input type="text">
+          <input class="task__checkbox" type="checkbox">
+          <label class="task__label task-disp">Pay Bills</label>
+          <input type="text" class="task__input">
           <button class="edit">Edit</button>
           <button class="delete"><img src="./remove.svg"></button>
         </li>
         <li class="task task_edit">
-          <input type="checkbox">
-          <label class="task-disp">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task-disp">
+          <input class="task__checkbox" type="checkbox">
+          <label class="task__label task-disp">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="task-disp task__input">
           <button class="edit">Save</button>
           <button class="delete"><img src="./remove.svg"></button>
         </li>
@@ -36,9 +36,9 @@
       <h3>Completed</h3>
       <ul class="task-list" id="complete">
         <li class="task">
-          <input type="checkbox" checked>
-          <label class="task-disp">See the Doctor</label>
-          <input type="text" class="task-disp">
+          <input class="task__checkbox" type="checkbox" checked>
+          <label class="task__label task-disp">See the Doctor</label>
+          <input type="text" class="task-disp task__input">
           <button class="edit">Edit</button>
           <button class="delete"><img src="./remove.svg"></button>
         </li>
